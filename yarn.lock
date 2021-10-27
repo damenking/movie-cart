@@ -748,6 +748,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"big.js@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "big.js@npm:5.2.2"
+  checksum: b89b6e8419b097a8fb4ed2399a1931a68c612bce3cfd5ca8c214b2d017531191070f990598de2fc6f3f993d91c0f08aa82697717f6b3b8732c9731866d233c9e
+  languageName: node
+  linkType: hard
+
 "binary-extensions@npm:^2.0.0":
   version: 2.2.0
   resolution: "binary-extensions@npm:2.2.0"
@@ -970,6 +977,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"classnames@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "classnames@npm:2.3.1"
+  checksum: 14db8889d56c267a591f08b0834989fe542d47fac659af5a539e110cc4266694e8de86e4e3bbd271157dbd831361310a8293e0167141e80b0f03a0f175c80960
+  languageName: node
+  linkType: hard
+
 "clean-css@npm:^5.1.5":
   version: 5.2.2
   resolution: "clean-css@npm:5.2.2"
@@ -1174,6 +1188,16 @@ __metadata:
   peerDependencies:
     webpack: ^5.0.0
   checksum: e842905fce973517dab8ae1e1f6412691c9b4164fbaf94f10ef2ec073c9aa97b5cf9a753a45965fd44aab6528e068be85fd2f8437c6126a823399458dff04282
+  languageName: node
+  linkType: hard
+
+"css-modules-typescript-loader@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "css-modules-typescript-loader@npm:4.0.1"
+  dependencies:
+    line-diff: ^2.0.1
+    loader-utils: ^1.2.3
+  checksum: bb783d61d294e13e5fa1932cac3e128a2be29f8e746e7fcc64b08cbe255e864b4907c4a11697c7dba4bcd64e637fc0188d53eaec4b42dffc0d29971e06289896
   languageName: node
   linkType: hard
 
@@ -1522,6 +1546,13 @@ __metadata:
   version: 2.1.0
   resolution: "emojis-list@npm:2.1.0"
   checksum: fb61fa6356dfcc9fbe6db8e334c29da365a34d3d82a915cb59621883d3023d804fd5edad5acd42b8eec016936e81d3b38e2faf921b32e073758374253afe1272
+  languageName: node
+  linkType: hard
+
+"emojis-list@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "emojis-list@npm:3.0.0"
+  checksum: ddaaa02542e1e9436c03970eeed445f4ed29a5337dfba0fe0c38dfdd2af5da2429c2a0821304e8a8d1cadf27fdd5b22ff793571fa803ae16852a6975c65e8e70
   languageName: node
   linkType: hard
 
@@ -3066,6 +3097,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"levdist@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "levdist@npm:1.0.0"
+  checksum: 44fa3d761578da7a262bbb725972eb7d60e24d0f3d6e8ba408ed256c6cfc5d79e8b0757560d274267873455957af17333d192f734b13f251656c84fe5532de90
+  languageName: node
+  linkType: hard
+
 "levn@npm:^0.4.1":
   version: 0.4.1
   resolution: "levn@npm:0.4.1"
@@ -3080,6 +3118,15 @@ fsevents@~2.3.2:
   version: 2.0.3
   resolution: "lilconfig@npm:2.0.3"
   checksum: 39fcd06c9f94bec0f7be969f89abcead96cf9334682007df63e6fbe9bdb0566cf8e1ca53a8f56d2acca802f28e8acbabe8ed4e6265ed5e419b6a1397db003741
+  languageName: node
+  linkType: hard
+
+"line-diff@npm:^2.0.1":
+  version: 2.1.1
+  resolution: "line-diff@npm:2.1.1"
+  dependencies:
+    levdist: ^1.0.0
+  checksum: ede6b67796601d32fe024c686cd4e23f5daa96fe9d1501de0cbc242243a2daa9917fcfa704a769ca9e08e78f0ee99c3e1fc06f3361c5e7d74e636e9f0c586820
   languageName: node
   linkType: hard
 
@@ -3099,6 +3146,17 @@ fsevents@~2.3.2:
     json5: ^0.5.0
     object-assign: ^4.0.1
   checksum: 3045c83ef8b19d66d4c25e3245120c579883f473fe0d0559552f55502be913725c4d558a7c866191a74b19ef2af20b094afe3b144ae1e717ea4c245d52f60a09
+  languageName: node
+  linkType: hard
+
+"loader-utils@npm:^1.2.3":
+  version: 1.4.0
+  resolution: "loader-utils@npm:1.4.0"
+  dependencies:
+    big.js: ^5.2.2
+    emojis-list: ^3.0.0
+    json5: ^1.0.1
+  checksum: d150b15e7a42ac47d935c8b484b79e44ff6ab4c75df7cc4cb9093350cf014ec0b17bdb60c5d6f91a37b8b218bd63b973e263c65944f58ca2573e402b9a27e717
   languageName: node
   linkType: hard
 
@@ -4440,7 +4498,9 @@ resolve@^2.0.0-next.3:
     "@types/react-dom": ^17.0.10
     "@typescript-eslint/eslint-plugin": ^5.2.0
     "@typescript-eslint/parser": ^5.2.0
+    classnames: ^2.3.1
     css-loader: ^6.4.0
+    css-modules-typescript-loader: ^4.0.1
     eslint: ^8.1.0
     eslint-plugin-react: ^7.26.1
     html-webpack-plugin: ^5.4.0

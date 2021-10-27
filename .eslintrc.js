@@ -43,4 +43,5 @@ module.exports = {
       'version': 'detect',
     },
   },
+  'ignorePatterns': ['*.js'],
 };

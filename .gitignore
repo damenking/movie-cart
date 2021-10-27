@@ -9,3 +9,5 @@
 dist
 
 .DS_store
+
+*.css.d.ts

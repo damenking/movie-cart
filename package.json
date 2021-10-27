@@ -11,6 +11,7 @@
     "start": "node ./webpack/dev.js"
   },
   "dependencies": {
+    "classnames": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -20,6 +21,7 @@
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
     "css-loader": "^6.4.0",
+    "css-modules-typescript-loader": "^4.0.1",
     "eslint": "^8.1.0",
     "eslint-plugin-react": "^7.26.1",
     "html-webpack-plugin": "^5.4.0",

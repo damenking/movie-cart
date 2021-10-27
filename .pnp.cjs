@@ -39,7 +39,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:17.0.10"],
             ["@typescript-eslint/eslint-plugin", "virtual:ecd6c2dd3670186e4d49efc05e4e8944b0443b9240d0c0616cb3ce276b097eba164f0a4e2bb5a6ef2e8e84aa1a905212766f2b6ecc35b7c9aeb4cd8eaad039c9#npm:5.2.0"],
             ["@typescript-eslint/parser", "virtual:ecd6c2dd3670186e4d49efc05e4e8944b0443b9240d0c0616cb3ce276b097eba164f0a4e2bb5a6ef2e8e84aa1a905212766f2b6ecc35b7c9aeb4cd8eaad039c9#npm:5.2.0"],
+            ["classnames", "npm:2.3.1"],
             ["css-loader", "virtual:ecd6c2dd3670186e4d49efc05e4e8944b0443b9240d0c0616cb3ce276b097eba164f0a4e2bb5a6ef2e8e84aa1a905212766f2b6ecc35b7c9aeb4cd8eaad039c9#npm:6.4.0"],
+            ["css-modules-typescript-loader", "npm:4.0.1"],
             ["eslint", "npm:8.1.0"],
             ["eslint-plugin-react", "virtual:ecd6c2dd3670186e4d49efc05e4e8944b0443b9240d0c0616cb3ce276b097eba164f0a4e2bb5a6ef2e8e84aa1a905212766f2b6ecc35b7c9aeb4cd8eaad039c9#npm:7.26.1"],
             ["html-webpack-plugin", "virtual:ecd6c2dd3670186e4d49efc05e4e8944b0443b9240d0c0616cb3ce276b097eba164f0a4e2bb5a6ef2e8e84aa1a905212766f2b6ecc35b7c9aeb4cd8eaad039c9#npm:5.4.0"],
@@ -992,6 +994,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["big.js", "npm:3.2.0"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:5.2.2", {
+          "packageLocation": "./.yarn/cache/big.js-npm-5.2.2-e147c30820-b89b6e8419.zip/node_modules/big.js/",
+          "packageDependencies": [
+            ["big.js", "npm:5.2.2"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["binary-extensions", [
@@ -1234,6 +1243,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/chrome-trace-event-npm-1.0.3-e0ae3dcd60-cb8b1fc7e8.zip/node_modules/chrome-trace-event/",
           "packageDependencies": [
             ["chrome-trace-event", "npm:1.0.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["classnames", [
+        ["npm:2.3.1", {
+          "packageLocation": "./.yarn/cache/classnames-npm-2.3.1-f2ae0a8d3c-14db8889d5.zip/node_modules/classnames/",
+          "packageDependencies": [
+            ["classnames", "npm:2.3.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1497,6 +1515,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [
             "@types/webpack",
             "webpack"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["css-modules-typescript-loader", [
+        ["npm:4.0.1", {
+          "packageLocation": "./.yarn/cache/css-modules-typescript-loader-npm-4.0.1-393a7cad32-bb783d61d2.zip/node_modules/css-modules-typescript-loader/",
+          "packageDependencies": [
+            ["css-modules-typescript-loader", "npm:4.0.1"],
+            ["line-diff", "npm:2.1.1"],
+            ["loader-utils", "npm:1.4.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1919,6 +1948,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/emojis-list-npm-2.1.0-e19a336e35-fb61fa6356.zip/node_modules/emojis-list/",
           "packageDependencies": [
             ["emojis-list", "npm:2.1.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:3.0.0", {
+          "packageLocation": "./.yarn/cache/emojis-list-npm-3.0.0-7faa48e6fd-ddaaa02542.zip/node_modules/emojis-list/",
+          "packageDependencies": [
+            ["emojis-list", "npm:3.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3674,6 +3710,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["levdist", [
+        ["npm:1.0.0", {
+          "packageLocation": "./.yarn/cache/levdist-npm-1.0.0-9606977e9f-44fa3d7615.zip/node_modules/levdist/",
+          "packageDependencies": [
+            ["levdist", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["levn", [
         ["npm:0.4.1", {
           "packageLocation": "./.yarn/cache/levn-npm-0.4.1-d183b2d7bb-12c5021c85.zip/node_modules/levn/",
@@ -3690,6 +3735,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lilconfig-npm-2.0.3-abbc2dc1d3-39fcd06c9f.zip/node_modules/lilconfig/",
           "packageDependencies": [
             ["lilconfig", "npm:2.0.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["line-diff", [
+        ["npm:2.1.1", {
+          "packageLocation": "./.yarn/cache/line-diff-npm-2.1.1-2206a16ce2-ede6b67796.zip/node_modules/line-diff/",
+          "packageDependencies": [
+            ["line-diff", "npm:2.1.1"],
+            ["levdist", "npm:1.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3712,6 +3767,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["emojis-list", "npm:2.1.0"],
             ["json5", "npm:0.5.1"],
             ["object-assign", "npm:4.1.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:1.4.0", {
+          "packageLocation": "./.yarn/cache/loader-utils-npm-1.4.0-a56254a277-d150b15e7a.zip/node_modules/loader-utils/",
+          "packageDependencies": [
+            ["loader-utils", "npm:1.4.0"],
+            ["big.js", "npm:5.2.2"],
+            ["emojis-list", "npm:3.0.0"],
+            ["json5", "npm:1.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -5292,7 +5357,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:17.0.10"],
             ["@typescript-eslint/eslint-plugin", "virtual:ecd6c2dd3670186e4d49efc05e4e8944b0443b9240d0c0616cb3ce276b097eba164f0a4e2bb5a6ef2e8e84aa1a905212766f2b6ecc35b7c9aeb4cd8eaad039c9#npm:5.2.0"],
             ["@typescript-eslint/parser", "virtual:ecd6c2dd3670186e4d49efc05e4e8944b0443b9240d0c0616cb3ce276b097eba164f0a4e2bb5a6ef2e8e84aa1a905212766f2b6ecc35b7c9aeb4cd8eaad039c9#npm:5.2.0"],
+            ["classnames", "npm:2.3.1"],
             ["css-loader", "virtual:ecd6c2dd3670186e4d49efc05e4e8944b0443b9240d0c0616cb3ce276b097eba164f0a4e2bb5a6ef2e8e84aa1a905212766f2b6ecc35b7c9aeb4cd8eaad039c9#npm:6.4.0"],
+            ["css-modules-typescript-loader", "npm:4.0.1"],
             ["eslint", "npm:8.1.0"],
             ["eslint-plugin-react", "virtual:ecd6c2dd3670186e4d49efc05e4e8944b0443b9240d0c0616cb3ce276b097eba164f0a4e2bb5a6ef2e8e84aa1a905212766f2b6ecc35b7c9aeb4cd8eaad039c9#npm:7.26.1"],
             ["html-webpack-plugin", "virtual:ecd6c2dd3670186e4d49efc05e4e8944b0443b9240d0c0616cb3ce276b097eba164f0a4e2bb5a6ef2e8e84aa1a905212766f2b6ecc35b7c9aeb4cd8eaad039c9#npm:5.4.0"],

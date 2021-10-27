@@ -8,11 +8,6 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
-    "plugins": [
-      {
-        "name": "typescript-plugin-css-modules",
-      },
-    ]
   },
   "include": ["src"]
 }

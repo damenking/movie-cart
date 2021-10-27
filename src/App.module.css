@@ -1,0 +1,12 @@
+.App {
+  height: 100vh;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  background: var(--color-paper);
+}
+
+.Main {
+  margin-left: 8px;
+  margin-right: 8px;
+}
