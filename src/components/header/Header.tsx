@@ -5,9 +5,7 @@ import styles from './Header.module.css';
 
 export default function Header() {
   const className = classNames(
-    'col-span-4',
     'flex-center',
-    'background-color-orange',
     styles.Header,
   );
   return (

@@ -37,7 +37,7 @@ export default function Confirmation({
       <div className={ confirmationBodyClassName }>
         { !playlistConfirmed && (
           <>
-            <h4>Confirm these movies?</h4>
+            <h2>Confirm these movies?</h2>
             <div className='flex-center'>
               <div className={ styles.ButtonContainer }>
                 <button onClick={ handleCancelClick }>Cancel</button>
@@ -48,7 +48,7 @@ export default function Confirmation({
               { Object.keys(playlist).map(imdbId => {
                 return (
                   <li key={ imdbId }>
-                    { playlist[imdbId].Title }&nbsp;({ playlist[imdbId].Year })
+                    <h4>{ playlist[imdbId].Title }&nbsp;({ playlist[imdbId].Year })</h4>
                   </li>
                 );
               })}
@@ -57,13 +57,13 @@ export default function Confirmation({
         )}
         { playlistConfirmed && (
           <>
-            <h4>Playlist confirmed. Thank you!</h4>
+            <h2>Playlist confirmed. Thank you!</h2>
             <button onClick={ handleCancelClick }>Close</button>
           </>
         )}
       </div>
       <div className={ confirmationFooterClassName }>
-        <h5>My favorite color is maroon</h5>
+        <h3>My favorite color is maroon</h3>
       </div>
     </div>
   );

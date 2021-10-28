@@ -14,7 +14,7 @@ export default function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
   const [confirmationOpen, setConfirmationOpen] = useState(false);
 
-  const mainClassName = classNames('col-span-4 grid-mobile-layout', styles.Main);
+  const appClassName = classNames('grid-mobile-layout', styles.App);
 
   async function handleSearchSubmit({ title, year }: MoviesBySearchRequest): Promise<void> {
     const { movies, totalResults } = await fetchMoviesBySearch({ title, year, page: 1 });
@@ -53,16 +53,20 @@ export default function App() {
     currentPage,
     playlist,
   } = state;
-  return (
-    <div className={ styles.App }>
-      { confirmationOpen && (
+  if (confirmationOpen) {
+    return (
+      <div className={ appClassName }>
         <Confirmation dispatch={ dispatch } playlist={ playlist } setConfirmationOpen={ setConfirmationOpen }/>
-      )}
+      </div>
+    );
+  }
+  return (
+    <div className={ appClassName }>
       <Header />
-      <main className={ mainClassName }>
-        <h4 className='col-span-4'>
+      <main className={ styles.Main }>
+        <h3 className='col-span-4'>
           Search for movies to add to your playlist and then confirm your movie playlist!
-        </h4>
+        </h3>
         <Form
           onSubmit={ handleSearchSubmit }
           playListCount={ Object.keys(playlist).length }
@@ -71,10 +75,10 @@ export default function App() {
         <div className='col-span-3'>
           { totalResults && (
             <div>
-              <h5><strong>Results:</strong></h5>
-              <small>
+              <h4><strong>Results:</strong></h4>
+              <p>
                 Showing {totalResults <= 10 ? movies.length : `${(currentPage - 1) * 10 + 1} - ${(currentPage - 1) * 10 + movies.length}` } of {totalResults} results
-              </small>
+              </p>
               { movies.length < totalResults && (
                 <div>
                   { currentPage !== 1 && <><span onClick={ () => handlePageChange(currentPage - 1) } className={ styles.PageLink }>Previous</span><span>&nbsp;</span></>}

@@ -46,7 +46,7 @@ export default function MovieItem({
   return (
     <div className={ styles.MovieItem }>
       <button onClick={ handleAddClick }>{ added ? 'Added' : 'Add' }</button>
-      <h5><a href={ `${imdbUrl}${imdbID}` } target='_blank' rel='noopener noreferrer'>{ Title }</a>&nbsp;({ Year })</h5>
+      <h4><a href={ `${imdbUrl}${imdbID}` } target='_blank' rel='noopener noreferrer'>{ Title }</a>&nbsp;({ Year })</h4>
     </div>
   );
 }

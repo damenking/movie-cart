@@ -4,11 +4,11 @@
   margin-right: auto;
   margin-left: auto;
   background: var(--color-paper);
-  overflow: hidden;
+  overflow: auto;
 }
 
 .Main {
-  padding: 16px;
+  padding: 1rem;
 }
 
 .PageLink {
