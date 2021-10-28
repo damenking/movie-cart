@@ -61,7 +61,7 @@ export default function Form({
         </button>
       </div>
       <div className={ confirmContainerClassName }>
-        <button onClick={ handleConfirmClick }>
+        <button onClick={ handleConfirmClick } disabled={ playListCount === 0}>
           CONFIRM PLAYLIST ({ playListCount })
         </button>
       </div>
