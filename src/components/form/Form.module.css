@@ -1,0 +1,20 @@
+.InputField {
+  border: 1px solid var(--color-ink);
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  margin-top: 8px;
+  padding-left: 16px;
+  font-size: large;
+}
+
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.ConfirmContainer {
+  align-items: end;
+}

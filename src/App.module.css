@@ -1,12 +1,18 @@
 .App {
   height: 100vh;
-  max-width: 1000px;
+  max-width: 900px;
   margin-right: auto;
   margin-left: auto;
   background: var(--color-paper);
+  overflow: hidden;
 }
 
 .Main {
-  margin-left: 8px;
-  margin-right: 8px;
+  padding: 16px;
+}
+
+.PageLink {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
 }

@@ -12,7 +12,7 @@ body {
   font-family: 'apercu-regular';
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 150%;
   color: var(--color-ink);
   margin: 0;
@@ -24,7 +24,6 @@ h1 {
   font-size: 121.5px;
   line-height: 100%;
   letter-spacing: -0.04em;
-  text-transform: uppercase;
   margin-top: 16px;
   margin-bottom: 16px;
 }
@@ -33,7 +32,6 @@ h2 {
   font-weight: normal;
   font-size: 81px;
   line-height: 150%;
-  text-transform: uppercase;
   margin-top: 16px;
   margin-bottom: 16px;
 }
@@ -43,7 +41,6 @@ h3 {
   font-size: 54px;
   line-height: 100%;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   margin-top: 16px;
   margin-bottom: 16px;
 }
@@ -53,7 +50,6 @@ h4 {
   font-size: 36px;
   line-height: 100%;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   margin-top: 16px;
   margin-bottom: 16px;
 }
@@ -62,7 +58,6 @@ h5 {
   font-weight: normal;
   font-size: 24px;
   line-height: 150%;
-  text-transform: uppercase;
   margin-top: 16px;
   margin-bottom: 16px;
 }
@@ -73,17 +68,16 @@ small {
   line-height: 150%;
   letter-spacing: 0.02em;
 }
-.text-tiny {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 10.67px;
-  line-height: 150%;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
 p {
   margin-top: 4px;
   margin-bottom: 4px;
+}
+button {
+  border: 1px solid var(--color-ink);
+  border-radius: 4px;
+  height: 48px;
+  width: 120px;
+  background-color: var(--color-orange);
 }
 .background-color-paper {
   background-color: var(--color-paper);
@@ -99,9 +93,6 @@ p {
 }
 .color-blue-minus-1 {
   color: var(--color-blue-minus-1);
-}
-.font-family-apercu-medium {
-  font-family: 'apercu-medium';
 }
 
 /* Simple layout system using grid */
@@ -132,36 +123,26 @@ p {
 .col-span-2-offset-2 {
   grid-column: 3 / span 2;
 }
-.col-span-2-offset-3 {
-  grid-column: 4 / span 2;
-}
 .col-span-3 {
   grid-column: span 3;
 }
 .col-span-3-offset-1 {
   grid-column: 2 / span 3;
 }
-.col-span-3-offset-2 {
-  grid-column: 3 / span 3;
-}
-.col-span-3-offset-3 {
-  grid-column: 4 / span 3;
-}
 .col-span-4 {
   grid-column: span 4;
-}
-.col-span-4-offset-1 {
-  grid-column: 2 / span 4;
-}
-.col-span-4-offset-2 {
-  grid-column: 3 / span 4;
-}
-.col-span-4-offset-3 {
-  grid-column: 4 / span 4;
 }
 
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
 }

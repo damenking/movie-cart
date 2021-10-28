@@ -1,0 +1,19 @@
+.ConfirmationScreen {
+  width: 100%;
+}
+
+.ConfirmationScreenBody {
+  height: 80vh;
+}
+
+.ConfirmationScreenFooter {
+  height: 20vh;
+  background-color: maroon;
+  color: var(--color-blue);
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}

@@ -1,0 +1,9 @@
+.MovieItem {
+  display: flex;
+  align-items: center;
+}
+
+.MovieItem button {
+  margin-right: 16px;
+  width: 72px;
+}

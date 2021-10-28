@@ -12,7 +12,7 @@ export default function Header() {
   );
   return (
     <header className={ className }>
-      <h2>Movie Cart</h2>
+      <h2>MOVIE CART</h2>
     </header>
   );
 }
